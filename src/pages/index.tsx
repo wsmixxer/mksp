@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { Layout } from "../components";
+import { Layout } from "../common/templates";
 
 export default function Page() {
   return (
