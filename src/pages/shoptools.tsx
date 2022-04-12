@@ -2,7 +2,7 @@ import { withPageAuthRequired } from "@auth0/nextjs-auth0";
 import { ReactElement } from "react";
 import { Layout } from "../common/templates";
 
-export default function Index() {
+export default function ShopTools() {
   return (
     <>
       {/* Primary column */}
@@ -22,7 +22,7 @@ export default function Index() {
   );
 }
 
-Index.getLayout = function getLayout(page: ReactElement) {
+ShopTools.getLayout = function getLayout(page: ReactElement) {
   return <Layout>{page}</Layout>;
 };
 
