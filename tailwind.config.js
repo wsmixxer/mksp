@@ -8,7 +8,6 @@ module.exports = {
         "mx-caviar": "#313031",
         "mx-cherry-red": "#EC2526",
         "mx-positive-red": "#AD2C34",
-        white: "#F0EBE0",
         grey: {
           50: "#909090",
           100: "#868686",
